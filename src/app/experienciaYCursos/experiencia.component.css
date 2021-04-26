@@ -1,0 +1,10 @@
+
+#card1{
+  float: left;
+}
+
+#card2{
+float: right;
+align-items: center;
+margin-top: 4%;
+}
