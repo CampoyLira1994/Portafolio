@@ -29,3 +29,15 @@ height: 425px;
 .rotateZ:hover {
   transform: rotateZ(180deg);
 }
+
+
+.circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  filter: saturate(180%);
+}
