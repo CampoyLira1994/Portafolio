@@ -1,20 +1,67 @@
-<body style="word-wrap: break-word;">
-  <div id="div1" >
-    <div class="row">
-      <div id="img" class="col-6">
-          <img class="circular--square" src="../../assets/img/CAMPOY.jpg" alt="Logo de la conferencia" />
-      </div>
-      <div class="col-6">
-        <br/><br/>
-        <h1 class="display-4" style="color: rgb(39, 119, 223); margin-left: 4%;" >Desarrollador Web <br/> Front-End <br/>y Back-End</h1>
-      </div>
-    </div>
-    <br/>
+<body >
+  <div class="p-3 mb-2 bg-dark" >
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">
+          <img class="circular--square img-fluid " src="../../assets/img/CAMPOY.jpg" alt="Logo de la conferencia" />
+        </th>
+        <th scope="col">
+          <h1 class="display-4 mb-5 text-right" style="color: rgb(39, 119, 223); margin-right: 6%;" >Desarrollador Web <br/> Front-End <br/>y Back-End</h1>
+        </th>
+      </tr>
+    </thead>
+  </table>
   </div>
 
 
-    <div id="div2" >
-    <div class="row">
+  <br>
+  <div style="margin-left: 2%;" >
+    <a type="button" (click)="scrollToElement(target)">
+    <img src="../../assets/img/Cont.png" width="50" height="50" /> <b>    Contacto </b></a>
+    <!-- <input type="checkbox" class="custom-control-input" id="customCheckDisabled" disabled>
+    <label class="custom-control-label" for="customCheckDisabled">Check this custom checkbox</label> -->
+  </div>
+  <br>
+
+
+
+
+    <div class="row p-3 bg-white">
+
+      <div class="row">
+            <div class="col-9" >
+              <div class="card " >
+                <div class="card-body">
+                  <h5 class="card-title">Sobre Mi</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">¿Qué servicios hago?</li>
+                  <div class="card-body">
+                    <p class="card-text">
+                      Actualmente creo, diseño, actualizo y mantengo páginas y portales
+                      web avanzados tanto en el lado del servidor (Back-end) como en el
+                      lado del cliente (Front-end, UX/UI). Continuamente aprendiendo y
+                      adquiriendo nuevas habilidades en función a las actuales y futuras
+                      demandas y tendencias tecnológicas en el campo del diseño y
+                      desarrollo de aplicaciones web en general. Apasionado con el
+                      trabajo que realizo, ofreciendo en cada proyecto total atención,
+                      dedicación, personalización y calidad al cliente.
+                    </p>
+                  </div>
+                </ul>
+              </div>
+
+            </div>
+            <div class="col-3">
+              <img  class="img-fluid" alt="Responsive image"  src="../../assets/img/leng4.png" alt="Third slide" />
+            </div>
+
+
+      </div>
+
+
+    <!-- <div class="row">
       <div id="text" class="col-6">
         <div class="card" >
           <div class="card-body">
@@ -39,10 +86,13 @@
       </div>
       <div class="col-6">
         <br/><br/>
-        <img style="margin-left: 20%;"  src="../../assets/img/leng4.png" alt="Third slide" />
+        <img class="rounded mx-auto d-block" class="img-fluid" alt="Responsive image"   src="../../assets/img/leng4.png" alt="Third slide" />
       </div>
-    </div>
+    </div> -->
 
   </div>
 
 </body>
+
+
+<div #target></div>

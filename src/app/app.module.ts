@@ -8,7 +8,7 @@ import { ExperienciaComponent } from './experienciaYCursos/experiencia.component
 import { PortadaComponent } from './portada/portada.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { PortafolioWebComponent } from './portafolio-web/portafolio-web.component';
-import { CvComponent } from './cv/cv.component';
+// import { CvComponent } from './cv/cv.component';
 
 
 
@@ -19,8 +19,8 @@ import { CvComponent } from './cv/cv.component';
     ExperienciaComponent,
     PortadaComponent,
     ContactoComponent,
-    PortafolioWebComponent,
-    CvComponent
+    PortafolioWebComponent
+    // CvComponent
 
   ],
   imports: [
