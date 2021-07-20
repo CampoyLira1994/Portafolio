@@ -8,6 +8,8 @@ import { ExperienciaComponent } from './experienciaYCursos/experiencia.component
 import { PortadaComponent } from './portada/portada.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { PortafolioWebComponent } from './portafolio-web/portafolio-web.component';
+import { ServiciocorreoService } from './servicios/serviciocorreo.service';
+import { HttpClientModule } from '@angular/common/http';
 // import { CvComponent } from './cv/cv.component';
 
 
@@ -25,9 +27,12 @@ import { PortafolioWebComponent } from './portafolio-web/portafolio-web.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ ServiciocorreoService ],
   bootstrap: [AppComponent]
+
+
 })
 export class AppModule { }
