@@ -1,0 +1,16 @@
+
+#h1Titulo{
+  color: #dee2e6;
+  font-size: 16px;
+}
+
+
+@media(min-width: 450px) {
+
+  #h1Titulo{
+    color: #dee2e6;
+    font-size: 25px;
+  }
+
+
+}
