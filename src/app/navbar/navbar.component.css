@@ -1,9 +1,18 @@
-
 #h1Titulo{
   color: #dee2e6;
   font-size: 16px;
+  text-align: left;
 }
 
+
+.img{
+  width: 15%;
+  height: 15%;
+}
+
+.navbar{
+  padding: 0%;
+}
 
 @media(min-width: 450px) {
 
@@ -12,5 +21,29 @@
     font-size: 25px;
   }
 
+  }
+
+  @media(min-width: 768px) {
+
+  #h1Titulo{
+    color: #dee2e6;
+    font-size: 25px;
+  }
+
+  .img{
+    width: 10%;
+  }
+}
+
+@media(min-width: 1024px) {
+
+  #h1Titulo{
+    color: #dee2e6;
+    font-size: 25px;
+  }
+
+  .img{
+    width: 7%;
+  }
 
 }

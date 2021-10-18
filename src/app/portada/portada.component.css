@@ -1,11 +1,26 @@
-
-.circular--square {
+.circular {
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
   margin-left: 10%;
-  height: 25%;
+  width: 65%;
+  height: 100%;
+}
+
+.titulo{
+  color: rgb(39, 119, 223);
+  margin-right: 10%;
+  margin-left: 5%;
+  
+}
+
+.box1{
+  width: 45%;
+}
+
+.box2{
+  width: 45%;
 }
 
 
@@ -46,26 +61,15 @@
 
 @media (min-width: 450px){
 
-.circular--square {
-  border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-  margin-left: 10%;
-  height: 50%;
-
+.circular {
+  width: 35%;
+  height: 100%;
 }
 
 .titulo{
-  color: rgb(39, 119, 223);
-  margin-right: 10%;
-  margin-left: 5%;
-  vertical-align: middle;
+  font-size: 40px;
 }
 
-.text{
-  font-size: 50px;
-}
 
 .c1{
   /* background: url("../../assets/img/leng4.png"); */
@@ -76,10 +80,7 @@
 
 .c2{
   width: 25%;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 10%;
+  height: 30%;
 }
 
 .logoHttp{
@@ -95,5 +96,31 @@
   align-items: center;
 }
 
-
 }
+
+
+
+@media (min-width: 850px){
+
+  .circular {
+    width: 40%;
+    height: 95%;
+  }
+
+  .titulo{
+    font-size: 50px;
+  }
+} 
+
+
+@media (min-width: 1100px){
+
+  .circular {
+    width: 55%;
+    height: 95%;
+  }
+
+  .titulo{
+    font-size: 55px;
+  }
+} 
