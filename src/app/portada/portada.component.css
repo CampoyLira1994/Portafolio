@@ -1,3 +1,8 @@
+#fondo{
+  background: url("../../assets/img/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg");
+  width: 100%;
+}
+
 .circular {
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
