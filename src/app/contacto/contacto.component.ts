@@ -18,7 +18,7 @@ export class ContactoComponent implements OnInit {
     this.serviciocorreoService.getEmployees().subscribe(data => {
       this.esmpelados = data;
       console.log(this.esmpelados);
-    })
+    });
   }
 
 }
